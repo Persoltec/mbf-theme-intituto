@@ -12,6 +12,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
       <FaustProvider client={client} pageProps={pageProps}>
         <Component {...pageProps} />
       </FaustProvider>
-    </>
+     </>
   ); 
 }
